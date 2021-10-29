@@ -24,6 +24,11 @@ menu_save = {} # 고객 주문 메뉴 기록
 price_save = {} # 고객 주문 금액 기록
 
 while True:
+    # 0. 주문 여부
+    guest_order = "주문을 하시려면 메인메뉴를 선택해주세요."
+    print("guset_order")
+    
+    
     # 1. 메인메뉴 선택
 
     menu_num = choice.choice_main()
