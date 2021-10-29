@@ -6,6 +6,8 @@
 # 내용: Console 기반의 햄버거를 판매하는 키오스크 프로그램
 
 import choice_menu as choice
+import os
+os.system("pause")
 
 # 조건
 # 사용자는 최대로 버거1개, 사이드1개, 음료1개 주문할 수 있다.
