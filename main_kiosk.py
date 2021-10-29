@@ -6,8 +6,6 @@
 # 내용: Console 기반의 햄버거를 판매하는 키오스크 프로그램
 
 import choice_menu as choice
-import os
-os.system("pause")
 
 # 조건
 # 사용자는 최대로 버거1개, 사이드1개, 음료1개 주문할 수 있다.
@@ -26,10 +24,10 @@ menu_save = {} # 고객 주문 메뉴 기록
 price_save = {} # 고객 주문 금액 기록
 
 while True:
+
     # 0. 주문 여부
-    guest_order = "주문을 하시려면 메인메뉴를 선택해주세요."
+    guest_order = "방문해주셔서 감사합니다. 주문을 하시려면 메인메뉴를 선택해주세요."
     print(guset_order)
-    
     
     # 1. 메인메뉴 선택
 
@@ -88,7 +86,8 @@ while True:
     print('(으)로 총 주문 금액은 {}원 입니다.'.format(total_price))
     print('이용해주셔서 감사합니다. 또 방문해주세요 :)')
     print('=========================================================')
-
+    print()*3
+    
     # 4. 주문 메뉴 및 가격 초기화
     menu_save.clear()
     price_save.clear()
